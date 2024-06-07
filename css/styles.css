@@ -35,3 +35,17 @@ ul {
 ol {
     list-style-type: decimal-leading-zero;
 }
+
+table.table-class {
+    text-decoration: none;
+    border-collapse: collapse;
+    border-color: black;
+    width: 100%;
+    text-align: center;
+}
+table.table-class td,table.table-class th {
+    white-space: pre-wrap;
+    padding: 10px 5px;
+    line-height: 13px;
+    vertical-align: middle;
+    border: 1px solid black;}
